@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+
+        <title>
+            JACOB WILSON
+        </title>
+        <link rel = "stylesheet" type="text/css" href="style.css">
+    </head>
+<body>
+
+
+
+<div class="index">
+     <div class="menu-items">
+        <p><a href = "index.html">HOME</a></p>
+        <p><a href = "projects.html">PROJECTS</a></p>
+        <p><a href = "resume.html">RESUME</a></p>
+        <p class="hide-small"><a href="mailto: jacob.wilson.dev@gmail.com"> EMAIL </a></p>
+        <p class="hide-small"><a href="https://www.linkedin.com/in/jacobwilsondev/"> LINKEDIN </a> </p>
+        <p class="hide-small"> <a href="https://github.com/wils0936" > GITHUB </a> </p>
+
+    </div>
+
+    <div class="circle">
+        <div class="logo">   
+        </div>       
+        <div class = "text-JW"> 
+        
+         <p> JACOB WILSON ~ WEB AND MOBILE DEVELOPER ~  </p>
+            
+        </div>
+    </div>
+
+<div class="menu-items-2">
+        <p class="hide-large"><a href="mailto: jacob.wilson.dev@gmail.com"> EMAIL </a></p>
+        <p class="hide-large"><a href="https://www.linkedin.com/in/jacobwilsondev/"> LINKEDIN </a> </p>
+        <p class="hide-large"><a href="https://github.com/wils0936" > GITHUB </a> </p>
+</div> 
+    <script>
+    
+        const text = document.querySelector('.text-JW p'); 
+        text.innerHTML = text.innerText.split("").map(
+            (char, i) =>
+            `<span style ="transform:rotate(${i * 8.5}deg)">${char}</span>`
+    ).join("")
+        
+    </script>
+   
+
+</div>
+    </body>
+    </html>
+    
+
+
