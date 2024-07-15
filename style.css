@@ -228,7 +228,6 @@ position: relative;
 
 .container-portfolio-heading {
 color:rgba(220, 186, 147,0.8);
-outline-style: solid;
 margin-top: -75%;
 margin-left: 5%;
 font-size: 20px; 
@@ -243,7 +242,6 @@ position: absolute;
 .container-portfolio-lang {
 color:rgba(220, 186, 147,0.8);
 margin-top: -22%;
-outline-style: solid;
 margin-left: 5%;
 font-size: 16px; 
 padding: 2%;
